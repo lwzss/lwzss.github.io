@@ -14,9 +14,9 @@
 <meta property="og:url" content="http://yoursite.com/2019/10/13/我的第一篇博客/index.html">
 <meta property="og:site_name" content="威">
 <meta property="og:description" content="初来乍到各位父老乡亲，兄弟姐妹，叔叔阿姨，来了还请留下小爱心和评论（请注意文明用语）">
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yoursite.com/BoImage/T.png">
-<meta property="og:updated_time" content="2019-10-13T14:18:02.446Z">
+<meta property="og:updated_time" content="2019-10-14T08:11:20.329Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="我的第一篇博客">
 <meta name="twitter:description" content="初来乍到各位父老乡亲，兄弟姐妹，叔叔阿姨，来了还请留下小爱心和评论（请注意文明用语）">
@@ -54,6 +54,8 @@
 		<hgroup>
 		  <h1 class="header-author"><a href="/">大威威哟</a></h1>
 		</hgroup>
+		
+		<p class="header-subtitle">我有一头小毛驴</p>
 		
 
 		<nav class="header-menu">
@@ -112,6 +114,8 @@
 			<hgroup>
 			  <h1 class="header-author js-header-author">大威威哟</h1>
 			</hgroup>
+			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>我有一头小毛驴<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -185,7 +189,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="初来乍到"><a href="#初来乍到" class="headerlink" title="初来乍到"></a>初来乍到</h2><p>各位父老乡亲，兄弟姐妹，叔叔阿姨，来了还请留下小爱心和评论（请注意文明用语）<br><img src="/.com//../../../BoImage/T.png" alt="a"></p>
+        <h2 id="初来乍到"><a href="#初来乍到" class="headerlink" title="初来乍到"></a>初来乍到</h2><p>各位父老乡亲，兄弟姐妹，叔叔阿姨，来了还请留下小爱心和评论（请注意文明用语）<br><img src="/.com//../../../BoImage/T.png" alt></p>
 
       
 
@@ -396,10 +400,27 @@
 		
     </div>
 	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-	
-            <span id="busuanzi_container_site_uv">
+	<span id="busuanzi_container_site_uv">
   本站访客数<span id="busuanzi_value_site_uv"></span>人次
-</span>
+	</span>
+            
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("10/10/2019 12:49:00");//此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+setInterval("createtime()",250);
+</script>
   </div>
 </footer>
 
@@ -476,6 +497,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">标签1</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">标签2</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -531,6 +560,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           
             <li class="search-li">
               <a href="https://zhu874.github.io" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>朱晓伟</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://lishiwei253416.github.io" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>李世伟</a>
             </li>
           
             <li class="search-li">
@@ -623,5 +656,5 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 	
 </div>
   </div>
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-hijiki"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
 </html>
